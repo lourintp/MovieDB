@@ -7,6 +7,5 @@ target 'MoviesDB' do
 
   # Pods for MoviesDB
   pod 'Alamofire'
-  pod 'NVActivityIndicatorView', '4.6.1'
 
 end
