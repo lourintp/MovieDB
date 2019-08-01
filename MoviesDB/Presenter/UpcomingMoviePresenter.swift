@@ -18,8 +18,8 @@ class UpcomingMoviePresenterImpl: UpcomingMoviePresenter {
     private var currentPage = 0
     private var isInProgress = false
     
-    init(view: BaseView) {
-        self.view = view as! UpcomingMoviesView
+    init(view: UpcomingMoviesView) {
+        self.view = view
     }
     
     func getUpcomingList() {

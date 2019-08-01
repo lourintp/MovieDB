@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol UpcomingMoviesView: BaseView {
+protocol UpcomingMoviesView {
     func setMovieList(_ movies: [Movie])
     func setTotalCount(total: Int)
 }
 
-class UpcomingMoviesVC: BaseViewController, UpcomingMoviesView {
+class UpcomingMoviesVC: UIViewController, UpcomingMoviesView {
     
     @IBOutlet weak var tableView: UITableView!    
     
